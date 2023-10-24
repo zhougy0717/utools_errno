@@ -1,0 +1,20 @@
+{
+    "version": "0.0.1",
+    "pluginName": "查找错误码",
+    "description": "查找错误码",
+    "author": "Ben",
+    "homepage": "https://u.tools",
+    "preload": "preload.js",
+    "logo": "icons/logo.png",
+    "features": [{
+        "platform": ["darwin", "win32", "linux"],
+        "code": "errno",
+        "explain": "搜索错误码",
+        "cmds": [
+            "ec",
+            "en",
+            "错误码",
+            "cwm"
+        ]
+    }]
+  }

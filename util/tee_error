@@ -1,0 +1,23 @@
+TEEC_SUCCESS 0x00000000 The operation was successful.
+TEEC_ERROR_GENERIC 0xFFFF0000 Non-specific cause.
+TEEC_ERROR_ACCESS_DENIED 0xFFFF0001 Access privileges are not sufficient.
+TEEC_ERROR_CANCEL 0xFFFF0002 The operation was cancelled.
+TEEC_ERROR_ACCESS_CONFLICT 0xFFFF0003 Concurrent accesses caused conflict.
+TEEC_ERROR_EXCESS_DATA 0xFFFF0004 Too much data for the requested operation was passed.
+TEEC_ERROR_BAD_FORMAT 0xFFFF0005 Input data was of invalid format.
+TEEC_ERROR_BAD_PARAMETERS 0xFFFF0006 Input parameters were invalid.
+TEEC_ERROR_BAD_STATE 0xFFFF0007 Operation is not valid in the current state.
+TEEC_ERROR_ITEM_NOT_FOUND 0xFFFF0008 The requested data item is not found.
+TEEC_ERROR_NOT_IMPLEMENTED 0xFFFF0009 The requested operation should exist but is not yet implemented.
+TEEC_ERROR_NOT_SUPPORTED 0xFFFF000A The requested operation is valid but is not supported in this Implementation.
+TEEC_ERROR_NO_DATA 0xFFFF000B Expected data was missing.
+TEEC_ERROR_OUT_OF_MEMORY 0xFFFF000C System ran out of resources.
+TEEC_ERROR_BUSY 0xFFFF000D The system is busy working on something else.
+TEEC_ERROR_COMMUNICATION 0xFFFF000E Communication with a remote party failed.
+TEEC_ERROR_SECURITY 0xFFFF000F A security fault was detected.
+TEEC_ERROR_SHORT_BUFFER 0xFFFF0010 The supplied buffer is too short for the generated output.
+
+TEEC_ORIGIN_API 1 0x00000001 The return code is an error that originated within the TEE Client API implementation.
+TEEC_ORIGIN_COMMS 1 0x00000002 The return code is an error that originated within the underlying communications stack linking the rich OS with the TEE.
+TEEC_ORIGIN_TEE 1 0x00000003 The return code is an error that originated within the common TEE code.
+TEEC_ORIGIN_TRUSTED_APP 0x00000004 The return code originated within the Trusted Application code. This includes the case where the return code is a success.

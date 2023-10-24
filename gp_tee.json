@@ -1,0 +1,134 @@
+[
+    {
+        "title": "TEE_SUCCESS",
+        "errno": "0x00000000"
+    },
+    {
+        "title": "TEE_ERROR_CORRUPT_OBJECT",
+        "errno": "0xF0100001"
+    },
+    {
+        "title": "TEE_ERROR_CORRUPT_OBJECT_2",
+        "errno": "0xF0100002"
+    },
+    {
+        "title": "TEE_ERROR_STORAGE_NOT_AVAILABLE",
+        "errno": "0xF0100003"
+    },
+    {
+        "title": "TEE_ERROR_STORAGE_NOT_AVAILABLE_2",
+        "errno": "0xF0100004"
+    },
+    {
+        "title": "TEE_ERROR_OLD_VERSION",
+        "errno": "0xF0100005"
+    },
+    {
+        "title": "TEE_ERROR_CIPHERTEXT_INVALID",
+        "errno": "0xF0100006"
+    },
+    {
+        "title": "TEE_ERROR_GENERIC",
+        "errno": "0xFFFF0000"
+    },
+    {
+        "title": "TEE_ERROR_ACCESS_DENIED",
+        "errno": "0xFFFF0001"
+    },
+    {
+        "title": "TEE_ERROR_CANCEL",
+        "errno": "0xFFFF0002"
+    },
+    {
+        "title": "TEE_ERROR_ACCESS_CONFLICT",
+        "errno": "0xFFFF0003"
+    },
+    {
+        "title": "TEE_ERROR_EXCESS_DATA",
+        "errno": "0xFFFF0004"
+    },
+    {
+        "title": "TEE_ERROR_BAD_FORMAT",
+        "errno": "0xFFFF0005"
+    },
+    {
+        "title": "TEE_ERROR_BAD_PARAMETERS",
+        "errno": "0xFFFF0006"
+    },
+    {
+        "title": "TEE_ERROR_BAD_STATE",
+        "errno": "0xFFFF0007"
+    },
+    {
+        "title": "TEE_ERROR_ITEM_NOT_FOUND",
+        "errno": "0xFFFF0008"
+    },
+    {
+        "title": "TEE_ERROR_NOT_IMPLEMENTED",
+        "errno": "0xFFFF0009"
+    },
+    {
+        "title": "TEE_ERROR_NOT_SUPPORTED",
+        "errno": "0xFFFF000A"
+    },
+    {
+        "title": "TEE_ERROR_NO_DATA",
+        "errno": "0xFFFF000B"
+    },
+    {
+        "title": "TEE_ERROR_OUT_OF_MEMORY",
+        "errno": "0xFFFF000C"
+    },
+    {
+        "title": "TEE_ERROR_BUSY",
+        "errno": "0xFFFF000D"
+    },
+    {
+        "title": "TEE_ERROR_COMMUNICATION",
+        "errno": "0xFFFF000E"
+    },
+    {
+        "title": "TEE_ERROR_SECURITY",
+        "errno": "0xFFFF000F"
+    },
+    {
+        "title": "TEE_ERROR_SHORT_BUFFER",
+        "errno": "0xFFFF0010"
+    },
+    {
+        "title": "TEE_ERROR_EXTERNAL_CANCEL",
+        "errno": "0xFFFF0011"
+    },
+    {
+        "title": "TEE_ERROR_TIMEOUT",
+        "errno": "0xFFFF3001"
+    },
+    {
+        "title": "TEE_ERROR_OVERFLOW",
+        "errno": "0xFFFF300F"
+    },
+    {
+        "title": "TEE_ERROR_TARGET_DEAD",
+        "errno": "0xFFFF3024"
+    },
+    {
+        "title": "TEE_ERROR_STORAGE_NO_SPACE",
+        "errno": "0xFFFF3041"
+    },
+    {
+        "title": "TEE_ERROR_MAC_INVALID",
+        "errno": "0xFFFF3071"
+    },
+    {
+        "title": "TEE_ERROR_SIGNATURE_INVALID",
+        "errno": "0xFFFF3072"
+    },
+    {
+        "title": "TEE_ERROR_TIME_NOT_SET",
+        "errno": "0xFFFF5000"
+    },
+    {
+        "title": "TEE_ERROR_TIME_NEEDS_RESET",
+        "errno": "0xFFFF5001"
+    }
+]
